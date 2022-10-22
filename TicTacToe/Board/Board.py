@@ -9,6 +9,7 @@ class Board:
 
         for i in range(0, length):
             for j in range(0, length):
-                print
+                print(self.board[i][j], end = "\t")
+            print()    
 
 
