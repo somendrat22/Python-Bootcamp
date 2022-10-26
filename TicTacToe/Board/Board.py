@@ -3,7 +3,11 @@ class Board:
 
     def __init__(self): 
         self.board = [['_','_','_'], ['_','_','_'],['_', '_', '_']]
-    
+        self.rowCount = [0, 0, 0]
+        self.colCount = [0, 0, 0]
+        self.dig = 0
+        self.antiDig = 0
+        
     def printBoard(self):
         length = len(self.board[0])
 
